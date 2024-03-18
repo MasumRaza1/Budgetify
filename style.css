@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+  }
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  
+  html,
+  body {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #EAF5F6;
+  }
+  
+  .container {
+    margin-top: 20px;
+    width: 400px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding-bottom: 18px;
+  }
+
+  /* Media query for phones */
+@media only screen and (max-width: 767px) {
+
+  body {
+    font-size: 14px; /* Adjust font size for better readability on phones */
+  }
+
+  /* Other CSS rules specific to phones */
+  .container {
+    margin-top: 20px;
+    width: 350px;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding-bottom: 18px;
+  }
+
+}
+
+  
+  h3.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #093030;
+    margin-bottom: 5px;
+  }
+  
+  p.sub-title {
+    color: #B5BAB8;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  h3.title-p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #093030;
+    margin-bottom: 30px;
+  }
+p.title-p {
+    font-weight: 600;
+    color: #093030;
+    margin-bottom: 5px;
+  }
+  
+  p span.phone-number {
+    display: block;
+    color: #093030;
+    font-weight: 600;
+    margin-top: 25px;
+  }
+  
+  .wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .symbol{
+    line-height: 75px;
+    font-size: 32px;
+    border: none;
+    background-color: #EAF5F6;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0 10px 0 10px;
+    color: #093030;
+    margin-bottom: 25px;
+  }
+  
+  .wrapper input.field {
+    width: 100%;
+    line-height: 75px;
+    font-size: 32px;
+    border: none;
+    background-color: #EAF5F6;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0 10px 0 10px;
+    color: #093030;
+    margin-bottom: 25px;
+    margin-left: -10px;
+  }
+  
+  .wrapper input.field:focus {
+    outline: none;
+  }
+
+
+  
+  .result{
+    background-color: transparent;
+    border: none;
+    color: #005fb9;
+    font-size: 22px;
+  }
+
+
+footer{
+  margin-top: 50px;
+  text-align: center;
+  display: block;
+  color: #093030;
+  font-size: 14px;
+}
+
+p.footer-bottom{
+  margin-top: -10px;
+}
+p a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #093030;
+}
+.linka{ 
+  background-color: #093030;
+  padding: 2px 4px;
+  border-radius: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 10px;
+
+}
+
